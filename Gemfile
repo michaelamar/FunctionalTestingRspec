@@ -9,6 +9,7 @@ gem 'sqlite3'
 
 group :development, :test do
   gem 'rspec-rails', '~> 2.0'
+  gem 'simplecov'
 end
 
 group :test do
