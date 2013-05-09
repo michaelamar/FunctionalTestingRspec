@@ -19,3 +19,7 @@ end
 Comment.blueprint do
   # Attributes here
 end
+
+Author.blueprint do
+  # Attributes here
+end

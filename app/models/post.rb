@@ -3,6 +3,7 @@ class Post < ActiveRecord::Base
 
   has_many :posts
   belongs_to :blog
+  belongs_to :author
 
   validates :title, :presence => true
   validates :body, :presence => true
