@@ -7,3 +7,15 @@ require 'machinist/active_record'
 #     title { "Post #{sn}" }
 #     body  { "Lorem ipsum..." }
 #   end
+
+Blog.blueprint do
+  # Attributes here
+end
+
+Post.blueprint do
+  # Attributes here
+end
+
+Comment.blueprint do
+  # Attributes here
+end
