@@ -2,6 +2,13 @@ require 'simplecov'
 SimpleCov.start do
   add_filter "/config"
   add_filter '/spec'
+  add_filter 'app/models'
+  add_filter 'app/assets'
+  add_filter 'app/helpers'
+  add_filter 'app/mailers'
+  add_filter 'app/views'
+
+
 end
 
 # This file is copied to spec/ when you run 'rails generate rspec:install'
